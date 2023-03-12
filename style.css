@@ -11,6 +11,27 @@ body {
     border-right: 1px solid #333;
 }
 
+.song {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+h1 span {
+    background: gold;
+}
+
+p {
+    color: darkslategray
+}
+
+.grayItalic {
+    font-style: italic;
+    color: gray;
+}
+
 th, td, caption {
     border: 1px solid #333;
     font-family: 'Courier New', Courier, monospace;
