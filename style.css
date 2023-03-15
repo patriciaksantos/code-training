@@ -1,5 +1,6 @@
 
 body {
+    font-family: 'Comfortaa', cursive;
     min-height: 100vh;
     margin: 0 auto;
     padding: 1rem;
@@ -19,18 +20,19 @@ p {
     font-size: 1.5rem;
     margin: 1.5rem;
     padding: 1.5rem;
+    
 }
-
 
 h1, h2 {
     color: blue;
 }
 
 .song {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 h1 span {
+    text-transform: uppercase;
     background: gold;
 }
 
