@@ -16,20 +16,30 @@ p {
     text-decoration: none;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: underline; }
-a:active { text-decoration: underline; }
-
 
 .container {
     font-size: 1.5rem;
     text-align: justify;
     text-indent: 2em;
-    line-height: 1.5; 
-    
+    line-height: 1.5;   
 }
 
+a {
+  text-decoration: none;
+  color: steelblue;  
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    opacity: 0.8;
+}
+
+a:active {
+    color: green;
+}
 
 h1, h2 {
     color: blue;
