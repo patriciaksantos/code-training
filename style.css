@@ -50,8 +50,10 @@ h1, h2 {
 }
 
 h1 span {
+    padding: 1rem;
     text-transform: uppercase;
     background: gold;
+    border-radius: 2rem;
 }
 
 .grayItalic {
