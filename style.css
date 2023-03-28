@@ -16,14 +16,6 @@ p {
     text-decoration: none;
 }
 
-
-.container {
-    font-size: 1.5rem;
-    text-align: justify;
-    text-indent: 2em;
-    line-height: 1.5;   
-}
-
 a {
   text-decoration: none;
   color: steelblue;  
@@ -43,6 +35,17 @@ a:active {
 
 h1, h2 {
     color: blue;
+}
+
+.block {
+    float: left;
+    margin-right: 1rem;
+}
+
+.container {
+    width: 80%;
+    padding: 1rem;
+    display: flow-root;
 }
 
 .song {
@@ -65,9 +68,9 @@ ul {
     padding: 0;
 }
 
-li {
+/* li {
     list-style: url("img/radioicon.png") inside;
-}
+} */
    
 
 th, td, caption {
