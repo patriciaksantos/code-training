@@ -58,7 +58,7 @@ li {
 
 a {
   text-decoration: none;
-  color: steelblue;  
+  color: purple;  
 }
 
 a:visited {
@@ -125,7 +125,7 @@ footer a:visited {
 }
 
 footer {
-    background-color: royalblue;
+    background-color: #000;
     color: #fff;
     position: sticky;
     left: 0;
