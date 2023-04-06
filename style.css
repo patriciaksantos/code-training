@@ -75,6 +75,7 @@ a:active {
 
 h1, h2 {
     color: blue;
+    padding: 1rem;
 }
 
 .block {
