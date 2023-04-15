@@ -151,3 +151,39 @@ footer {
     left: 0;
     bottom: 0;
 }
+
+/* || SMALL  - FIX - NOT RESPONDING ||||  */
+@media screen and (min-width: 576px) {
+    h1, h2 {
+        color: green;
+    }   
+}
+
+/* || MEDIUM */
+@media screen and (min-width: 768px) {
+    h1, h2 {
+        color: gold;
+    }   
+}
+
+/* || LARGE */
+@media screen and (min-width: 992px) {
+    h1, h2 {
+        color: firebrick;
+    }   
+}
+
+/* || XL */
+@media screen and (min-width: 1200px) {
+    h1, h2 {
+        color: rebeccapurple;
+    }   
+}
+
+/* || MOBILE DEVICE LANDSCAPE */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+    h1, h2 {
+        color: aliceblue;
+    }   
+}
+
