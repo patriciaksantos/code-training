@@ -78,23 +78,10 @@ h1, h2 {
     padding: 1rem;
 }
 
-
-
-
-
-
-/* ISOLATE CLASS BEST SONGS EVER (BODY) */
-
-
-
-
-
-
-body, best songs ever {
+.bestSongsEver {
     background-image: url('img/radio.jpg');
     background-size: cover;
-    background-position: bottom; 
-   
+    background-position: bottom;
 }
 
 .block {
